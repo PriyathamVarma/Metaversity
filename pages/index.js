@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import logo from '../public/valknut.png';
 
 export default function Home() {
   return (
@@ -8,14 +9,20 @@ export default function Home() {
       <Head>
         <title>Metaversity</title>
         <meta name="metaverse" content="For learning about metaverse" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/valknut.png" />
       </Head>
 
       <main className={styles.main}>
 
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Metaversity</a>
-        </h1>
+        <div className={styles.title}>
+         <p><img src={logo.src} className={styles.logo} alt="logo" /> Welcome to <a href="https://nextjs.org">Metaversity</a> </p>
+
+         <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Partnerships</li>
+         </ul>
+        </div>
 
        {/*
         <p className={styles.description}>
