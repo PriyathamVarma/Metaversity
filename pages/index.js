@@ -24,6 +24,26 @@ export default function Home() {
          </ul>
         </div>
 
+        <div className={styles.hero}>
+
+          <div>
+
+            <h5>Welcome,</h5>
+
+          </div>
+
+          <div>
+
+          </div>
+
+          <div>
+
+          </div>
+
+          
+
+        </div>
+
        {/*
         <p className={styles.description}>
           Get started by editing{' '}

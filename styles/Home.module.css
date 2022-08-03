@@ -12,6 +12,27 @@
   align-items: center;
 }
 
+.hero {
+  width:100%;
+  font-size: 4rem;
+  margin-top:30px;
+  padding: 10px;
+  min-height:600px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+.hero div{
+  flex-grow:4;
+}
+
+
+
 .footer {
   display: flex;
   flex: 1;
@@ -180,3 +201,17 @@
     filter: invert(1);
   }
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
