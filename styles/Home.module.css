@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  /*padding: 0 2rem;*/
 }
 
 .main {
@@ -16,7 +16,6 @@
   width:100%;
   font-size: 4rem;
   margin-top:30px;
-  padding: 10px;
   min-height:600px;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -31,7 +30,24 @@
   flex-grow:4;
 }
 
+.middle{
+  width:100%;
+  border: 1px solid black;
+  min-height:200px;
+  background-image: url('../public/uni.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.middle p{
+  color:white;
+  text-align: center;
+  font-weight: bolder;
+  font-size:x-large;
+  margin-top:50px;
+}
 
 .footer {
   display: flex;
