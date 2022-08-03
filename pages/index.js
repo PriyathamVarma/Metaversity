@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/valknut.png';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
         <meta name="metaverse" content="For learning about metaverse" />
         <link rel="icon" href="/valknut.png" />
       </Head>
+
+      <Header />
 
       <main className={styles.main}>
 
